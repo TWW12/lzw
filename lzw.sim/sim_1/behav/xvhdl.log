@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/new/dictionary_block_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dictionary_block_4
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/imports/temp/dictionary_block_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dictionary_block_2
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/imports/temp/dictionary_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dictionary_block
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/imports/temp/dictionary_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dictionary_2
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/new/dictionary_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dictionary_4
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sources_1/imports/temp/lzw.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity lzw
+INFO: [VRFC 10-163] Analyzing VHDL file "X:/final_project_sim/lzw/lzw.srcs/sim_1/imports/temp/lzw_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity lzw_tb

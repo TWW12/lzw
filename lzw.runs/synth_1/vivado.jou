@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 18 23:18:58 2017
+# Process ID: 8524
+# Current directory: X:/final_project_sim/lzw/lzw.runs/synth_1
+# Command line: vivado.exe -log lzw.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lzw.tcl
+# Log file: X:/final_project_sim/lzw/lzw.runs/synth_1/lzw.vds
+# Journal file: X:/final_project_sim/lzw/lzw.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lzw.tcl -notrace
