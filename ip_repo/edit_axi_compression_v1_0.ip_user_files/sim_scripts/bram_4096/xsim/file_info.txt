@@ -1,0 +1,2 @@
+bram_4096.v,verilog,xil_defaultlib,../../../../axi_compression_1.0/src/bram_4096/sim/bram_4096.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

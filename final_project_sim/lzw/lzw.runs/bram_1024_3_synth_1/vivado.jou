@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 18 23:15:23 2017
+# Process ID: 4076
+# Current directory: X:/final_project_sim/lzw/lzw.runs/bram_1024_3_synth_1
+# Command line: vivado.exe -log bram_1024_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bram_1024_3.tcl
+# Log file: X:/final_project_sim/lzw/lzw.runs/bram_1024_3_synth_1/bram_1024_3.vds
+# Journal file: X:/final_project_sim/lzw/lzw.runs/bram_1024_3_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bram_1024_3.tcl -notrace

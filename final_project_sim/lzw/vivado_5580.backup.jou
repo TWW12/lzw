@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 18 20:33:54 2017
+# Process ID: 5580
+# Current directory: X:/final_project_sim/lzw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6592 X:\final_project_sim\lzw\lzw.xpr
+# Log file: X:/final_project_sim/lzw/vivado.log
+# Journal file: X:/final_project_sim/lzw\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project X:/final_project_sim/lzw/lzw.xpr
+archive_project X:/final_project_sim/lzw.xpr.zip -temp_dir X:/final_project_sim/lzw/.Xil/Vivado-5580-Shaun -force -include_config_settings

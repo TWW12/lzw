@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../axi_compression_1.0/src/output_fifo/sim/output_fifo.v" 
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

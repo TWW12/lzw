@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.4 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z020_1" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/debug_nets.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/design_1_wrapper.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/wr_en" gui_info="Trigger Setup=0"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe0[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[7]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[6]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[5]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[4]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[3]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[2]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[1]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/din[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe1[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[7]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[6]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[5]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[4]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[3]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[2]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[1]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/dout[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe4[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/rd_en"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bR"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe5[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bR"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo0/wr_en"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq12&apos;hXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq12&apos;hXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe2[11:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq12&apos;hXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[11]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[10]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[9]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[8]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[7]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[6]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[5]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[4]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[3]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[2]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[1]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/din[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq12&apos;hXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq12&apos;hXXX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe3[11:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq12&apos;hXXX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[11]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[10]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[9]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[8]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[7]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[6]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[5]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[4]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[3]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[2]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[1]"/>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/dout[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe7[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/rd_en"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="MAP" value="probe6[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+      </probeOptions>
+      <nets>
+        <net name="design_1_i/axi_compression_0/U0/axi_compression_v1_0_S00_AXI_inst/fifo1/wr_en"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

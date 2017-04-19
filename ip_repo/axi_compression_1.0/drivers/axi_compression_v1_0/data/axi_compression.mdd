@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER axi_compression
+	OPTION supported_peripherals = (axi_compression);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = axi_compression;
+END DRIVER

@@ -1,0 +1,40 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto 544c4d2e096b4c44896a24d3be2a4e31 --debug typical --relax --mt 2 -L blk_mem_gen_v8_3_5 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot lzw_tb_behav xil_defaultlib.lzw_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2016.4/nightly/2017_01_23_1756540/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2016.4/nightly/2017_01_23_1756540/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_output_stage(...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_output_stage(...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bram_1024_0
+Compiling architecture behavioral of entity xil_defaultlib.dictionary_block_4 [dictionary_block_4_default]
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bram_1024_1
+Compiling architecture behavioral of entity xil_defaultlib.dictionary_block_4 [\dictionary_block_4(block_num=1)...]
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bram_1024_2
+Compiling architecture behavioral of entity xil_defaultlib.dictionary_block_4 [\dictionary_block_4(block_num=2)...]
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_5.blk_mem_gen_v8_3_5(C_FAMILY="zyn...
+Compiling module xil_defaultlib.bram_1024_3
+Compiling architecture behavioral of entity xil_defaultlib.dictionary_block_4 [\dictionary_block_4(block_num=3)...]
+Compiling architecture behavioral of entity xil_defaultlib.dictionary_4 [dictionary_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.lzw [lzw_default]
+Compiling architecture behavioral of entity xil_defaultlib.lzw_tb
+Built simulation snapshot lzw_tb_behav
